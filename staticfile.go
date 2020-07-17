@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/astaxie/beego/context"
-	"github.com/astaxie/beego/logs"
+	"github.com/anxpp/beego/context"
+	"github.com/anxpp/beego/logs"
 	"github.com/hashicorp/golang-lru"
 )
 

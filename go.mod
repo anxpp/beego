@@ -21,6 +21,8 @@ require (
 	github.com/ledisdb/ledisdb v0.0.0-20200510135210-d35789ec47e6
 	github.com/lib/pq v1.0.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pelletier/go-toml v1.2.0 // indirect
 	github.com/prometheus/client_golang v1.7.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644

@@ -19,8 +19,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/astaxie/beego/context"
-	"github.com/astaxie/beego/utils"
+	"github.com/anxpp/beego/context"
+	"github.com/anxpp/beego/utils"
 )
 
 var (
