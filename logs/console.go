@@ -57,7 +57,7 @@ type consoleWriter struct {
 func NewConsole() Logger {
 	cw := &consoleWriter{
 		lg:       newLogWriter(ansicolor.NewAnsiColorWriter(os.Stdout)),
-		Level:    LevelDebug,
+		Level:    LevelInfo,
 		Colorful: false,
 	}
 	return cw
