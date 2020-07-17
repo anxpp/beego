@@ -58,7 +58,7 @@ func NewConsole() Logger {
 	cw := &consoleWriter{
 		lg:       newLogWriter(ansicolor.NewAnsiColorWriter(os.Stdout)),
 		Level:    LevelDebug,
-		Colorful: true,
+		Colorful: false,
 	}
 	return cw
 }
